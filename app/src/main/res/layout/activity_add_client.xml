@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".add_client">
+
+
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+
+    <EditText
+        android:id="@+id/et_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        android:layout_marginBottom="8dp" />
+
+
+    <EditText
+        android:id="@+id/et_cin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CIN"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Country -->
+    <EditText
+        android:id="@+id/et_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_add_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Client" />
+</LinearLayout>

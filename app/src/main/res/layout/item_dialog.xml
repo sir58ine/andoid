@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/dn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <!-- Last Name -->
+    <TextView
+        android:id="@+id/dln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name: "
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <!-- Age -->
+    <TextView
+        android:id="@+id/da"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age: "
+        android:textSize="16sp" />
+
+    <!-- CIN -->
+    <TextView
+        android:id="@+id/dc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CIN: "
+        android:textSize="16sp" />
+
+    <!-- Country -->
+    <TextView
+        android:id="@+id/dct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country: "
+        android:textSize="16sp" />
+</LinearLayout>
